@@ -17,14 +17,51 @@
 	/* ---------------------------------------------------------------------------------------------------------- 
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+html {
+  background-color: hsl(120, 51%, 82%);
+  padding: 5%;
+}
 
+body {
+  background-color: hsla(215, 65%, 78%, 0.7);
+  color: rgb(255, 255, 255);
+}
 
+header {
+  background-color: hsla(0, 100%, 67%, 0.9);
+}
 
+.preamble, .requirements, .benefits {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 3px solid hsla(215, 100%, 37%, 0.7);
+  padding: 1%
+}
 
+.sidebar {
+  background-color: #f1f1c8d0;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: hsl(120, 100%, 83%);
+}
+
+p, h1, h2 {
+  padding: 3px;
+}
 
 /** 02 Typography -- Font  **/
+body {
+  font-family: Georgia;
+  font-weight: 300;
+}
 
-
+.summary {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18pt;
+}
 
 /** 03 Position, Size, layout **/
 
