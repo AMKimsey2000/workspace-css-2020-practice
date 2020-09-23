@@ -63,8 +63,23 @@ body {
   font-size: 18pt;
 }
 
+.sidebar a {
+  color: #00aeff;
+}
+
 /** 03 Position, Size, layout **/
 
+.sidebar {
+  position: absolute;
+  top: 50px;
+  right: -45%;
+  width: 50%;
+}
+
+.summary {
+  border: 2px dashed hsla(215, 100%, 37%, 0.7);
+  margin: 0px 0px 10px 0px;
+}
 
 /** 04  Other decoration -- background Links **/ 
 
