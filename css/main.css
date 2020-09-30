@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  background-color: hsla(215, 65%, 78%, 0.7);
+  background-color: hsla(215, 65%, 78%, 0.702);
   color: rgb(255, 255, 255);
 }
 
@@ -35,7 +35,7 @@ header {
 .preamble, .requirements, .benefits {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 3px solid hsla(215, 100%, 37%, 0.7);
+  border: 3px solid #004fbdb3;
   padding: 1%
 }
 
@@ -72,7 +72,7 @@ body {
 .sidebar {
   position: absolute;
   top: 50px;
-  right: -45%;
+  right: -50%;
   width: 50%;
 }
 
@@ -83,7 +83,40 @@ body {
 
 /** 04  Other decoration -- background Links **/ 
 
+header[role = banner] {
+  text-shadow: 2px 2px 5px #000000;
+}
 
+.sidebar {
+  box-shadow: -4px 4px 5px rgb(108, 218, 108);
+  transition: linear 0.5s;
+}
+
+.sidebar:hover {
+  transform: scale(1.2) translateY(40px);
+}
+
+html {
+  background: linear-gradient(#bae9ba, #bae8e9);
+}
+
+.preamble, .requirements, .benefits {
+  transition: linear 0.5s;
+}
+.preamble:hover, .requirements:hover, .benefits:hover {
+  background-color: #a9ccdf;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.explanation, .participation {
+  transition: linear 0.5s;
+}
+
+.explanation:hover, .participation:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
 
 /**	05	Media  **/
 header>h1{
